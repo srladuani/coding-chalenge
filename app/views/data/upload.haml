@@ -1,0 +1,9 @@
+.form-data
+  =form_tag parse_data_path, multipart: true do 
+    .form-group 
+      %lable Data File:
+      = file_field_tag :file,:required=>true 
+    .clr
+    .form-group
+      .button
+        = submit_tag "Import" 

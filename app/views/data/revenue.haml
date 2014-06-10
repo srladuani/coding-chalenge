@@ -1,0 +1,30 @@
+-if @purchased_items.present?
+  %table
+    %thead
+      %th
+        Item Description
+      %th
+        Item Price
+      %th
+        Purchased by
+      %th
+        Quantity
+      %th
+        Total price
+    %tbody
+      -@purchased_items.each do |purchased_item|
+        %tr
+          %td
+            = purchased_item.description
+          %td
+            = purchased_item.price
+          %td
+            = purchased_item.purchased_by
+          %td
+            = purchased_item.quantity
+          %td
+            = total_price(purchased_item.quantity,purchased_item.price)
+
+-else
+  %div
+    No Item is purchased yet.

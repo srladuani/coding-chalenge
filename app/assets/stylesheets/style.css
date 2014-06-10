@@ -1,0 +1,82 @@
+html{
+	background-color: #CCC;
+}
+body{
+	color: #000;
+	font-size: 14px;
+}
+.main{
+	margin: 0 50px;
+  height: 900px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.header{
+  height: 30px;
+  font-weight: bold;
+}
+.main .header ul {
+  float: left;
+}
+.main .header ul li {
+  float: left;
+  text-align: center;
+  margin-left: 13px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 12px;
+  height: 20px;
+  list-style: none;
+}
+.main .header ul li a {
+  color: blue;
+  text-decoration: none;
+}
+
+.main .contents{
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.form-data .form-group{
+  margin: 10px;
+}
+.clr{
+  clear: both;
+}
+.contents table{
+  border-collapse: collapse;
+  text-align: left;
+  width: 80%;
+}
+
+.contents table td, .contents table th { 
+  padding: 3px 10px; 
+}
+.contents table thead th {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+  background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+  background-color:#006699; 
+  color:#FFFFFF; 
+  font-size: 15px; 
+  font-weight: bold; 
+  border-left: 1px solid #0070A8; 
+} 
+.contents table thead th:first-child { 
+  border: none; 
+}
+.contents table tbody td { 
+  color: #00496B; 
+  border-left: 1px solid #E1EEF4;
+  font-size: 14px;
+  font-weight: normal; 
+}
+.contents table tbody .alt td { 
+  background: #E1EEF4; 
+  color: #00496B; 
+}
+.contents table tbody td:first-child{
+  border-left: none; 
+}
