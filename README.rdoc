@@ -1,25 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please follow the instruction below to run this application
 
-Things you may want to cover:
 
-* Ruby version
+* Install rvm 2.1.1
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* in project root directory, install gems using bundle install
+* I am using sqlite3, so no need to create database, just run migrations, rake db:migrate
+* Now, run server if you are using development mode. run rails server
+* Go in browser, http://localhost:3000
+* Now, site is ready to use.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
 
